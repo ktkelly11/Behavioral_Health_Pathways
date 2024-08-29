@@ -15,9 +15,16 @@ td {
   /* border-bottom: 1px solid #ddd; */
 }
 
-.education:hover,
+.High-School {
+  background-color: rgb(126, 217, 87);
+  /* rgb(25, 128, 55) */
+}
+
+#education:hover,
+.licenses:hover,
 .profession:hover {
   cursor: pointer;
+  background-color: rgb(219, 214, 219);
 }
 
 .licenses {
@@ -26,4 +33,10 @@ td {
 
 .profession {
   background-color: rgb(246, 246, 246);
+}
+
+#education li,
+.licenses li,
+.profession li {
+  list-style: none;
 }
