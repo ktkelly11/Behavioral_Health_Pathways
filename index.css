@@ -5,6 +5,8 @@ body {
 
 table {
   width: 100%;
+  table-layout: fixed;
+  /* height: 100vh; */
   /* border-collapse: collapse; */
 }
 
@@ -16,8 +18,39 @@ td {
 }
 
 .High-School {
-  background-color: rgb(126, 217, 87);
-  /* rgb(25, 128, 55) */
+  background-color: rgb(126, 217, 87); /* Lightest green on website */
+  /* rgb(111, 205, 10) */
+  /* rgb(94, 189, 10) */
+  /*  rgb(77, 173, 10)*/
+  /*  rgb(60, 158, 9)*/
+  /*  rgb(43, 142, 7)*/
+  /* \rgb(25, 128, 55) */ /* Darkest green on website */
+
+  /* rgb(233, 118, 1) */ /* Orange color from website */
+}
+
+.Associates {
+  background-color: rgb(111, 205, 10);
+}
+
+.Bachelors {
+  background-color: rgb(94, 189, 10);
+}
+
+.Masters {
+  background-color: rgb(77, 173, 10);
+}
+
+.Medical-Grad {
+  background-color: rgb(60, 158, 9);
+}
+
+.Post-Grad {
+  background-color: rgb(43, 142, 7);
+}
+
+.Specialization {
+  background-color: rgb(25, 128, 55);
 }
 
 #education:hover,
@@ -39,4 +72,8 @@ td {
 .licenses li,
 .profession li {
   list-style: none;
+}
+
+li:hover {
+  text-decoration: underline;
 }
