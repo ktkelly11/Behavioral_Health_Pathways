@@ -2,3 +2,24 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
+
+table {
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.education:hover,
+.profession:hover {
+  cursor: pointer;
+}
+
+.licenses {
+  background-color: rgb(237, 237, 237);
+}
